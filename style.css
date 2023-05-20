@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(249, 243, 243, 0.99);
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: palevioletred;
+    height: 300px;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+h1 {
+    margin-top: 80px;
+    color: white;
+}
+
+nav {
+    background-color: black;
+    height: 60px;
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+}
+
+a {
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    float: left;
+    margin-left: 50px;
+}
+
+a:hover {
+    color: tomato;
+}
+
+table {
+    border: 1px solid rgb(97, 96, 96);
+    border-collapse: collapse;
+}
+
+.table-content {
+    width: 100%;
+}
+
+.inner-table>td {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    font-weight: 600;
+    background-color: rgb(249, 249, 247);
+}
+
+th {
+    border: 1px solid black;
+    padding: 20px;
+    border-collapse: collapse;
+    font-weight: 800;
+    background-color: rgb(180, 247, 8);
+}
+
+.table-card {
+    margin: auto;
+    border: 0.5px solid rgb(245, 244, 244);
+    background-color: white;
+    width: 60%;
+    padding: 30px;
+    margin-top: 0px;
+    padding-top: 0;
+}
+
+h3 {
+    color: tomato;
+    margin-bottom: 5px;
+}
+
+.form-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto;
+    border: 0.5px solid rgb(245, 244, 244);
+    background-color: rgb(193, 252, 46);
+    width: 60%;
+    padding: 30px;
+    margin-top: 40px;
+    padding-top: 0;
+    padding-right: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    margin: 1px;
+}
+
+input[type="submit"] {
+    background-color: #4daea1;
+    color: white;
+    width: 102.5%;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+label {
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.form-content {
+    text-align: left;
+}

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library System</title>
+    <link rel="stylesheet" href="style.css" class="css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Library System</h1>
+    </header>
+    <nav>
+        <a href="#book">Books</a>
+        <a href="#register">Register</a>
+    </nav>
+
+    <div class="table-card" id="book">
+        <h1 style="color: black;">Books</h1>
+        <table class="table-content">
+            <thead>
+                <tr>
+                    <th>Book ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Availablity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <table class="inner-table">
+                            <h3>Book Title 1</h3>
+                            <tr>
+                                <td>Publication Date : 21 may 2023</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count : 250</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:123-4567890123</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Author 1</td>
+                    <td>Genre 1</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <table class="inner-table">
+                            <h3>Book Title 2</h3>
+                            <tr>
+                                <td>Publication Date : 22 may 2023</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count : 220</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:123-4567890124</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Author 2</td>
+                    <td>Genre 2</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <table class="inner-table">
+                            <h3>Book Title 3</h3>
+                            <tr>
+                                <td>Publication Date : 23 may 2023</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count : 250</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:123-4567890125</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Author 3</td>
+                    <td>Genre 3</td>
+                    <td> Not Available</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>
+                        <table class="inner-table">
+                            <h3>Book Title 4</h3>
+                            <tr>
+                                <td>Publication Date : 24 may 2023</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count : 250</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:123-4567890126</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Author 4</td>
+                    <td>Genre 4</td>
+                    <td> Not Available</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>
+                        <table class="inner-table">
+                            <h3>Book Title 5</h3>
+                            <tr>
+                                <td>Publication Date : 25 may 2023</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count : 250</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:123-4567890127</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Author 5</td>
+                    <td>Genre 5</td>
+                    <td> Not Available</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>
+                        <table class="inner-table">
+                            <h3>Book Title 6</h3>
+                            <tr>
+                                <td>Publication Date : 26 may 2023</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count : 250</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:123-4567890128</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Author 6</td>
+                    <td>Genre 6</td>
+                    <td> Available</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>
+                        <table class="inner-table">
+                            <h3>Book Title 7</h3>
+                            <tr>
+                                <td>Publication Date : 27may 2023</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count : 250</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:123-4567890129</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Author 7</td>
+                    <td>Genre 7</td>
+                    <td>Available</td>
+                </tr>
+            </tbody>
+
+
+        </table>
+    </div>
+
+    <div class="form-card" id="register">
+        <form action="#" class="form-content">
+            <h1 style="color:black; text-align: center; ">Registration Form</h1>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <div class="first-name">
+                <label for="name" class="label-first-name"> First Name*</label>
+                <input type="text" id="name" name="name" class="input-firstname" required>
+            </div> <br>
+
+            <div class="last-name">
+                <label for="lastname" class="label-last-name"> Last Name*</label>
+                <input type="text" id="lastname" name="lastname" class="input-lastname" required>
+            </div> <br>
+            <div class="email-main">
+                <label for="email" class="label-email"> Email*</label>
+                <input type="email" id="email" name="email" class="input-email" required>
+            </div> <br>
+            <div class="dob-main">
+                <label for="dob" class="label-dob"> Date of Birth*</label>
+                <input type="date" id="dob" name="dob" class="input-dob" required>
+            </div> <br>
+
+            <div class="age-main">
+                <label for="age" class="label-age"> Age*</label>
+                <input type="number" id="age" name="age" class="input-age" min="5" max="100" required>
+            </div> <br>
+
+            <div class="password-main">
+                <label for="password" class="label-password"> Password*</label>
+                <input type="password" id="password" name="password" class="input-password" required>
+            </div> <br>
+
+            <div class="password-main">
+                <label for="password" class="label-password"> Confirm Password*</label>
+                <input type="password" id="password" name="password" class="input-password" required>
+            </div> <br>
+
+            <div class="submit-main">
+                <!-- <label for="submit" class="label-submit"> Confirm Password*</label> -->
+                <input type="submit" id="submit" name="submit" class="input-submit" value="Submit" required>
+            </div>
+            <br>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
